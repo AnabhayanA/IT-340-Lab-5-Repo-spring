@@ -1,0 +1,39 @@
+------ System Snapshot Sun Mar  8 01:51:00 PM EDT 2026 ------
+top - 13:51:01 up 28 min,  2 users,  load average: 0.94, 1.16, 1.02
+Tasks: 316 total,   1 running, 315 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  4.8 sy,  0.0 ni, 95.2 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :   3354.4 total,    493.9 free,   2191.8 used,    935.3 buff/cache     
+MiB Swap:   3530.0 total,   2887.5 free,    642.5 used.   1162.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   6659 ana       20   0   13424   5584   3492 R   9.1   0.2   0:00.01 top
+      1 root      20   0   25172  13000   9220 S   0.0   0.4   0:05.91 systemd
+      2 root      20   0       0      0      0 S   0.0   0.0   0:00.06 kthreadd
+      3 root      20   0       0      0      0 S   0.0   0.0   0:00.00 pool_wo+
+      4 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      5 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      6 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      7 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+      8 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     12 root      20   0       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     13 root       0 -20       0      0      0 I   0.0   0.0   0:00.00 kworker+
+     14 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+     15 root      20   0       0      0      0 I   0.0   0.0   0:00.00 rcu_tas+
+
+Memory:
+               total        used        free      shared  buff/cache   available
+Mem:           3.3Gi       2.1Gi       493Mi        27Mi       935Mi       1.1Gi
+Swap:          3.4Gi       642Mi       2.8Gi
+
+Disk:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           336M  2.3M  334M   1% /run
+/dev/sda2        20G  9.7G  8.9G  53% /
+tmpfs           1.7G     0  1.7G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           1.7G  4.1M  1.7G   1% /tmp
+tmpfs           336M  152K  336M   1% /run/user/1000
+/dev/sr0        100M  100M     0 100% /media/ana/CDROM
+------------------------------------
