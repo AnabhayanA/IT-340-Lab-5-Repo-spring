@@ -1,0 +1,21 @@
+------ System Monitoring Sun Mar  8 01:39:58 PM EDT 2026 ------
+Uptime:
+ 13:39:58 up 17 min,  2 users,  load average: 0.51, 1.01, 0.88
+
+Memory Usage:
+               total        used        free      shared  buff/cache   available
+Mem:           3.3Gi       2.5Gi       165Mi        59Mi       962Mi       830Mi
+Swap:          3.4Gi        39Mi       3.4Gi
+
+Disk Usage:
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           336M  2.3M  334M   1% /run
+/dev/sda2        20G  9.7G  8.9G  53% /
+tmpfs           1.7G     0  1.7G   0% /dev/shm
+tmpfs           5.0M  8.0K  5.0M   1% /run/lock
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-journald.service
+tmpfs           1.0M     0  1.0M   0% /run/credentials/systemd-resolved.service
+tmpfs           1.7G  4.1M  1.7G   1% /tmp
+tmpfs           336M  152K  336M   1% /run/user/1000
+/dev/sr0        100M  100M     0 100% /media/ana/CDROM
+--------------------------------------
